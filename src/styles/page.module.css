@@ -1,0 +1,97 @@
+.homepage {
+  width: 100vw;
+  min-height: 100vh;
+  height: 900px;
+  background-image: url("/public/assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.header {
+  width: 96.2%;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 2.5rem 0; */
+  margin-top: 2.5rem;
+  align-items: center;
+  /* border: 1px red solid; */
+  margin-left: auto;
+}
+.header .logo {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.header .navIcon {
+  display: none;
+  width: 50%;
+  border: 1px red solid;
+}
+.header .menu {
+  width: calc((100% + 45px) / 1.79);
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: hsla(0, 0%, 100%, 0.4);
+}
+.header .line {
+  /* background-color: white; */
+  width: 32.8%;
+  height: 1px;
+  position: absolute;
+  left: 13.6%;
+}
+.header nav {
+  width: calc((100% + 492px) / 2.44);
+  padding: 1.65rem 0;
+  margin: 0 auto;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header li {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+}
+.header span {
+  display: none;
+}
+
+.homeMain {
+  display: flex;
+  padding: 11.5%;
+  justify-content: space-between;
+  color: white;
+}
+.homeMain section {
+  border: 1px red solid;
+}
+.homeMain .homeOne {
+  width: 450px;
+}
+.homeMain .intro {
+  font-size: 28px;
+}
+.homeMain .space {
+  font-size: clamp(80px, 2vw, 150px);
+  text-transform: uppercase;
+}
+.homeMain .talk {
+  font-size: 18px;
+} /*# sourceMappingURL=main.css.map */
+.explore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 274px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  text-transform: capitalize;
+  color: black;
+  background-color: white;
+}
